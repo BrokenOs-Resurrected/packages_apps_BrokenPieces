@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 Unholy Developers
+ * Copyright (C) 2018 Broken Developers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.unholy.settings;
+package com.broken.settings;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -29,18 +29,18 @@ import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class UnholySettings extends SettingsPreferenceFragment {
+public class BrokenPieces extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.unholy_settings);
+        addPreferencesFromResource(R.xml.broken_settings);
         PreferenceScreen prefScreen = getPreferenceScreen();
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.UNHOLY_SETTINGS;
+        return MetricsProto.MetricsEvent.BROKEN_SETTINGS;
     }
 }
