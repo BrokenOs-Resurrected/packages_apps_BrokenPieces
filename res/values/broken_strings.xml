@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2018 Unholy Developers
+<!-- Copyright (C) 2018 Broken Developers
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -11,8 +11,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Unholy Settings -->
-    <string name="unholy_title">Unholy settings</string>
+    <!-- Broken Settings -->
+    <string name="broken_title">Broken Pieces</string>
 
     <!-- Settings Categories -->
     <string name="animation_settings">Animation settings</string>
