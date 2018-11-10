@@ -182,7 +182,7 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.UNHOLY_SETTINGS;
+        return MetricsProto.MetricsEvent.BROKEN_SETTINGS;
     }
 
     @Override
